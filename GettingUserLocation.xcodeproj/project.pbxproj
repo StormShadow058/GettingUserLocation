@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		7FA5BF9027AAA15C002F2241 /* GettingUserLocationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA5BF8F27AAA15C002F2241 /* GettingUserLocationApp.swift */; };
-		7FA5BF9227AAA15C002F2241 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA5BF9127AAA15C002F2241 /* ContentView.swift */; };
+		7FA5BF9227AAA15C002F2241 /* MapLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA5BF9127AAA15C002F2241 /* MapLayoutView.swift */; };
 		7FA5BF9427AAA15D002F2241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA5BF9327AAA15D002F2241 /* Assets.xcassets */; };
 		7FA5BF9727AAA15D002F2241 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA5BF9627AAA15D002F2241 /* Preview Assets.xcassets */; };
+		7FA5BF9E27AAA3BB002F2241 /* MapLayoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA5BF9D27AAA3BB002F2241 /* MapLayoutViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7FA5BF8C27AAA15C002F2241 /* GettingUserLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GettingUserLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA5BF8F27AAA15C002F2241 /* GettingUserLocationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingUserLocationApp.swift; sourceTree = "<group>"; };
-		7FA5BF9127AAA15C002F2241 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7FA5BF9127AAA15C002F2241 /* MapLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLayoutView.swift; sourceTree = "<group>"; };
 		7FA5BF9327AAA15D002F2241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FA5BF9627AAA15D002F2241 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7FA5BF9D27AAA3BB002F2241 /* MapLayoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLayoutViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				7FA5BF8F27AAA15C002F2241 /* GettingUserLocationApp.swift */,
-				7FA5BF9127AAA15C002F2241 /* ContentView.swift */,
+				7FA5BF9127AAA15C002F2241 /* MapLayoutView.swift */,
+				7FA5BF9D27AAA3BB002F2241 /* MapLayoutViewModel.swift */,
 				7FA5BF9327AAA15D002F2241 /* Assets.xcassets */,
 				7FA5BF9527AAA15D002F2241 /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FA5BF9227AAA15C002F2241 /* ContentView.swift in Sources */,
+				7FA5BF9227AAA15C002F2241 /* MapLayoutView.swift in Sources */,
 				7FA5BF9027AAA15C002F2241 /* GettingUserLocationApp.swift in Sources */,
+				7FA5BF9E27AAA3BB002F2241 /* MapLayoutViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +276,7 @@
 				DEVELOPMENT_TEAM = PDH59V599B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show on map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +306,7 @@
 				DEVELOPMENT_TEAM = PDH59V599B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to show on map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
